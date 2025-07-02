@@ -117,7 +117,7 @@ SEARCH_OPTIONS = {
     'lmcut-antplan':
     '--heuristic "h1=lmcut()" '
     '--heuristic "h2=antplan()" '
-    '--search "astar(weighted_sum([h1,h2],[1,1]),cost_type=PLUSONE,max_time=%s,bound=%s)"'
+    '--search "astar(weighted_sum([h1,h2],[1,1]),cost_type=PLUSONE,max_time=%s,bound=%s)"',
 
     # Suboptimal
     'ff-astar': '--heuristic "h=ff(transform=adapt_costs(cost_type=PLUSONE))" '
